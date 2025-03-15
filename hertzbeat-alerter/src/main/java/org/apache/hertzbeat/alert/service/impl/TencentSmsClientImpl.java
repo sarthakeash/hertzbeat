@@ -34,7 +34,9 @@ import org.apache.http.util.EntityUtils;
 import org.apache.hertzbeat.common.util.JsonUtil;
 import com.fasterxml.jackson.databind.JsonNode;
 
-import javax.xml.bind.DatatypeConverter;
+import jakarta.xml.bind.DatatypeConverter;
+
+// import javax.xml.bind.DatatypeConverter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
