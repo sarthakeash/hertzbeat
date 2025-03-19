@@ -54,4 +54,18 @@ public class SmsConfig {
      */
     private UniSmsProperties unisms;
 
+    /**
+     * Aws configuration
+     */
+    private AwsSmsProperties aws;
+
+    /**
+     * Twilio SMS configuration
+     */
+    private TwilioSmsProperties twilio;
+
+    /**
+     * Smslocal SMS configuration
+     */
+    private SmslocalSmsProperties smslocal;
 }

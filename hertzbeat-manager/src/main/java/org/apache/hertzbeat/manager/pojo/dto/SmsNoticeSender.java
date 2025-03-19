@@ -29,15 +29,21 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SmsNoticeSender {
-    
+
     @NotBlank(message = "Type cannot be empty")
     private String type;
-    
+
     private SmsTencentConfig tencent;
-    
+
     private SmsAlibabaConfig alibaba;
 
     private SmsUniSmsConfig unisms;
+
+    private SmslocalConfig smslocal;
+
+    private SmsAwsConfig aws;
+
+    private SmsTwilioConfig twilio;
 
     private boolean enable = true;
 }
